@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <!-- ================================================
+            step 1 for Player 1
+        ===================================================== -->
+      <h1 class="wanna">Wanna play a Game?</h1>
+      <input class="startInput" type="text" autocomplete="off" placeholder="Enter Your name......" />
+      <br />
+      <button class="startBtn">Start Game</button>
+      <div class="error"></div>
+
+      <!-- ================================================
+            step 2 for Player 1
+        ===================================================== -->
+      <h1 class="wannaTwo">Player-1 (<span class="player1name"></span>)</h1>
+      <input class="startInputTwo" type="password" autocomplete="off" placeholder="Give a Number (1-10)......" />
+      <br />
+      <button class="startBtnTwo">Let’s Play</button>
+      <div class="errorTwo"></div>
+      <!-- ================================================
+            step 3 for Player 2 name
+        ===================================================== -->
+      <h1 class="wannaThree">Player-2</h1>
+      <input class="startInputThree" type="text" autocomplete="off" placeholder="Enter Player- 2 Name......" />
+      <br />
+      <button class="startBtnThree">Start Game</button>
+      <div class="errorThree"></div>
+      <!-- ================================================
+            step 3 for Player 2 number
+        ===================================================== -->
+      <h1 class="wannaFour">Player-2(<span class="player2name"></span>)</h1>
+      <p class="chancestyle">Chance- <span class="chance"></span>/5</p>
+      <input class="startInputFour" type="text" autocomplete="off" placeholder="Guess The Number......" />
+      <br />
+      <button class="startBtnFour">Let's Play</button>
+      <div class="errorFour"></div>
+      <!-- ================================================
+            step 3 for Player 3 name
+        ===================================================== -->
+      <h1 class="wannaFive">Player-3</h1>
+      <input class="startInputFive" type="text" autocomplete="off" placeholder="Enter Player- 3 Name......" />
+      <br />
+      <button class="startBtnFive">Start Game</button>
+      <div class="errorFive"></div>
+      <!-- ================================================
+            step 3 for Player 2 number
+        ===================================================== -->
+      <h1 class="wannaSix">Player-3(<span class="player3name"></span>)</h1>
+      <p class="chancestyle1">Chance- <span class="chance1"></span>/5</p>
+      <input class="startInputSix" type="text" autocomplete="off" placeholder="Guess The Number......" />
+      <br />
+      <button class="startBtnSix">Let's Play</button>
+      <div class="errorSix"></div>
+
+      <!-- ==========================================
+        show result
+    ================================================== -->
+      <h1 class="player1">Player-1 ( <span class="p1"></span> ) - <span class="wORl1"></span></h1>
+      <h1 class="player2">Player-2 ( <span class="p2"></span> ) - <span class="wORl2"></span></h1>
+      <h1 class="player3">Player-3 ( <span class="p3"></span> ) - <span class="wORl3"></span></h1>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

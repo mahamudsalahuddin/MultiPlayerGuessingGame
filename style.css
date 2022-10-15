@@ -1,0 +1,119 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  justify-content: center;
+}
+.wanna {
+  font-weight: bold;
+  font-size: 48px;
+}
+.startInput {
+  width: 868px;
+  padding: 30px;
+  border-radius: 79px;
+  font-size: 32px;
+}
+.startInput::placeholder {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.startBtn {
+  width: 468px;
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-weight: regular;
+  font-size: 32px;
+  border-radius: 79px;
+  background: #7041d3;
+  border: 0;
+  color: white;
+}
+.error {
+  margin-top: 30px;
+  padding: 15px 42px;
+  font-weight: regular;
+  font-size: 32px;
+  background: red;
+  color: white;
+  border-radius: 10px;
+  display: none;
+}
+
+.wannaTwo,
+.wannaThree,
+.wannaFour,
+.wannaFive,
+.wannaSix {
+  display: none;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.startInputTwo,
+.startInputThree,
+.startInputFour,
+.startInputFive,
+.startInputSix {
+  display: none;
+  width: 868px;
+  padding: 30px;
+  border-radius: 79px;
+  font-size: 32px;
+}
+.startInputTwo::placeholder,
+.startInputThree::placeholder,
+.startInputFour::placeholder,
+.startInputFive::placeholder,
+.startInputSix::placeholder {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.startBtnTwo,
+.startBtnThree,
+.startBtnFour,
+.startBtnFive,
+.startBtnSix {
+  display: none;
+  width: 468px;
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-weight: regular;
+  font-size: 32px;
+  border-radius: 79px;
+  background: #7041d3;
+  border: 0;
+  color: white;
+}
+
+.errorTwo,
+.errorThree,
+.errorFour,
+.errorFive,
+.errorSix {
+  display: none;
+  margin-top: 30px;
+  padding: 15px 42px;
+  font-weight: regular;
+  font-size: 32px;
+  background: red;
+  color: white;
+  border-radius: 10px;
+  display: none;
+}
+
+.chancestyle,
+.chancestyle1 {
+  display: none;
+}
+
+.player1,
+.player2,
+.player3 {
+  font-weight: regular;
+  font-size: 32px;
+  display: none;
+}
