@@ -46,7 +46,8 @@
 .wannaThree,
 .wannaFour,
 .wannaFive,
-.wannaSix {
+.wannaSix,
+.theResult {
   display: none;
   font-weight: bold;
   font-size: 48px;

@@ -39,6 +39,9 @@ let chance1 =document.querySelector(".chance1");
 let player3name = document.querySelector(".player3name");
 let playerThree = "Lose";
 // result
+let guessingNumber= document.querySelector(".guessingNumber");
+let theResult= document.querySelector(".theResult");
+
 let player1= document.querySelector(".player1");
 let player2= document.querySelector(".player2");
 let player3= document.querySelector(".player3");
@@ -222,6 +225,7 @@ function CompareWithThird(){
             player1.style.display = "block";
             player2.style.display = "block";
             player3.style.display = "block";
+            theResult.style.display = "block";
 
             p1.innerHTML = startInput.value;
             p2.innerHTML = startInputThree.value;
@@ -233,4 +237,5 @@ function CompareWithThird(){
             r1.innerHTML = playerOne;
             r2.innerHTML = playerTwo;
             r3.innerHTML = playerThree;
+            guessingNumber.innerHTML = startInputTwo.value;
 }
