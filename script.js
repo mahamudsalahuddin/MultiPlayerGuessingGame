@@ -120,7 +120,6 @@ startBtnThree.addEventListener("click", ()=>{
         wannaFour.style.display = "block";
         chancestyle.style.display ="block";
         player2name.innerHTML = startInputThree.value
-
     }
 });
 
